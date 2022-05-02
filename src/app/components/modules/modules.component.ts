@@ -7,56 +7,51 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModulesComponent implements OnInit {
 
-  sections: any[] = [
+  exercice: any[] = [
     {
       "id": "1",
-      "name": "Section 1 - Nom section"
+      "id_module": "1",
+      "name": "exercice 1 - Nom section"
     },
     {
       "id": "2",
-      "name": "Section 2 - Nom section"
+      "id_module": "1",
+      "name": "exercice 2 - Nom section"
+    },
+    {
+      "id": "3",
+      "id_module": "1",
+      "name": "exercice 3 - Nom section"
+    },
+    {
+      "id": "4",
+      "id_module": "1",
+      "name": "exercice 4 - Nom section"
     }
   ];
 
 
-  modules_names: any[] = [
+  cours: any[] = [
     {
       "id": "1",
-      "section_id": "1",
-      "name": "Java",
-      "bg_img": "" 
+      "id_module": "1",
+      "name": "cours 1 - Nom section"
     },
     {
       "id": "2",
-      "section_id": "1",
-      "name": "Français",
-      "bg_img": ""
+      "id_module": "1",
+      "name": "cours 2 - Nom section"
     },
     {
       "id": "3",
-      "section_id": "1",
-      "name": "Maths",
-      "bg_img": ""
+      "id_module": "1",
+      "name": "cours 3 - Nom section"
     },
     {
       "id": "4",
-      "section_id": "2",
-      "name": "Physique-Chimie",
-      "bg_img": ""
-    },
-    {
-      "id": "5",
-      "section_id": "2",
-      "name": "Course relais",
-      "bg_img": ""
-    },
-    {
-      "id": "6",
-      "section_id": "2",
-      "name": "Intelligence Artificielle",
-      "bg_img": ""
+      "id_module": "1",
+      "name": "cours 4 - Nom section"
     }
-
   ]
 
   constructor() { }
