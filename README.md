@@ -26,7 +26,7 @@ Présentation visuelle de Skill Quest, Accès API BACK
 Node             16.13.2
 Npm              8.1.2
 Angular CLI      13.1.4 
-Angular Material 13.2.2
+Tailwind         3.0.34
 ```
 ## Installation
 ```
@@ -71,4 +71,5 @@ Test: ajout ou correction de tests
 ```
 Installer les outils : https://www.ganatan.com/tutorials/demarrer-avec-angular
 Comprendre l'organisation des branches du git : https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow
+Tailwind: https://tailwindcss.com/
 ```
