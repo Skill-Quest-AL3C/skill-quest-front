@@ -5,8 +5,6 @@ import { ExercicesComponent } from './components/exercices/exercices.component';
 import { ListeModulesComponent } from './components/liste-modules/liste-modules.component';
 import { ModulesComponent } from './components/modules/modules.component';
 
-// TODO: faire le routing profil à l'ID
-
 const routes: Routes = [
   {
     path: '',
@@ -20,6 +18,9 @@ const routes: Routes = [
   {
     path: 'modules',
     component: ModulesComponent,
+    children:[
+      {path: ':id', component: ModulesComponent}
+    ]
   },
   {
     path: 'exercices',
