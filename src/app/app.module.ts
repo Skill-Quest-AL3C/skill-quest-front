@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ModulesComponent } from './components/modules/modules.component';
-import { CardComponent } from './components/elements/card/card.component';
 import { ExercicesComponent } from './components/exercices/exercices.component';
 import { CoursComponent } from './components/cours/cours.component';
 import { ListeModulesComponent } from './components/liste-modules/liste-modules.component';
+import { UserComponent } from './users/user/user.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +17,10 @@ import { ListeModulesComponent } from './components/liste-modules/liste-modules.
     FooterComponent,
     NavbarComponent,
     ModulesComponent,
-    CardComponent,
     ExercicesComponent,
     CoursComponent,
-    ListeModulesComponent
+    ListeModulesComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,

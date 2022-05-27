@@ -4,6 +4,7 @@ import { CoursComponent } from './components/cours/cours.component';
 import { ExercicesComponent } from './components/exercices/exercices.component';
 import { ListeModulesComponent } from './components/liste-modules/liste-modules.component';
 import { ModulesComponent } from './components/modules/modules.component';
+import { UserComponent } from './users/user/user.component';
 
 const routes: Routes = [
   {
@@ -16,20 +17,21 @@ const routes: Routes = [
     component: ListeModulesComponent,
   },
   {
-    path: 'modules',
+    path: 'modules/:id',
     component: ModulesComponent,
-    children:[
-      {path: ':id', component: ModulesComponent}
-    ]
   },
   {
-    path: 'exercices',
+    path: 'exercices/:id',
     component: ExercicesComponent,
   },
   {
-    path: 'cours',
+    path: 'cours/:id',
     component: CoursComponent,
-  }
+  },
+  {
+    path: 'profil/:id',
+    component: UserComponent,
+  },
 ];
 
 @NgModule({

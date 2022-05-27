@@ -10,51 +10,51 @@ export class ListeModulesComponent implements OnInit {
   sections: any[] = [
     {
       "id": "1",
-      "name": "Section 1 - Nom section"
+      "name": "Toto"
     },
     {
       "id": "2",
-      "name": "Section 2 - Nom section"
+      "name": "Titi"
     }
   ];
 
 
-  modules_names: any[] = [
+  private modules_names: any[] = [
     {
       "id": "1",
       "section_id": "1",
       "name": "Java",
-      "bg_img": "" 
+      "bg_img": "/assets/logo.png" 
     },
     {
       "id": "2",
       "section_id": "1",
       "name": "Français",
-      "bg_img": ""
+      "bg_img": "/assets/logo.png"
     },
     {
       "id": "3",
       "section_id": "1",
       "name": "Maths",
-      "bg_img": ""
+      "bg_img": "/assets/logo.png"
     },
     {
       "id": "4",
       "section_id": "2",
       "name": "Physique-Chimie",
-      "bg_img": ""
+      "bg_img": "/assets/logo.png"
     },
     {
       "id": "5",
       "section_id": "2",
       "name": "Course relais",
-      "bg_img": ""
+      "bg_img": "/assets/logo.png"
     },
     {
       "id": "6",
       "section_id": "2",
       "name": "Intelligence Artificielle",
-      "bg_img": ""
+      "bg_img": "/assets/logo.png"
     }
 
   ]
@@ -64,8 +64,15 @@ export class ListeModulesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onClickModule($module : string = ""){
-    this.router.navigateByUrl('/modules/' + $module);
-  }
+  getModulesBySectionId($section_id : number) {
+    let array = [];
 
+    for (let index = 0; index < this.modules_names.length; index++) {
+      if (this.modules_names[index].section_id === $section_id) {
+        array.push(this.modules_names[index]);
+      }
+    }
+    
+    return array;
+  }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="h-full">
   <head>
     <meta charset="utf-8" />
     <title>Skill Quest - Gamify Learning !</title>
@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
-  <body class="bg-cover bg-no-repeat bg-[url('assets/background.jpg')] h-screen backdrop-brightness-200">
-    <app-root></app-root>
+  <body class="min-h-full
+               bg-cover bg-[url('assets/background.jpg')] backdrop-brightness-200 
+               scrollbar-thin scrollbar-thumb-vert-1 scrollbar-track-violet-1 overflow-y-scroll 
+               scrollbar-thumb-rounded-full scrollbar-track-rounded-full          
+               ">
+    <app-root class="flex flex-col min-h-full"></app-root>
   </body>
 </html>
