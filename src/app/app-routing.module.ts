@@ -17,11 +17,11 @@ const routes: Routes = [
     component: ListeModulesComponent,
   },
   {
-    path: 'modules/:id',
+    path: 'module/:id',
     component: ModulesComponent,
   },
   {
-    path: 'exercices/:id',
+    path: 'exercice/:id',
     component: ExercicesComponent,
   },
   {

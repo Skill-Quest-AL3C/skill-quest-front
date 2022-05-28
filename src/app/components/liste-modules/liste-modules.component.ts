@@ -10,11 +10,11 @@ export class ListeModulesComponent implements OnInit {
   sections: any[] = [
     {
       "id": "1",
-      "name": "Toto"
+      "name": "Langages de programmation"
     },
     {
       "id": "2",
-      "name": "Titi"
+      "name": "Général"
     }
   ];
 
@@ -29,13 +29,13 @@ export class ListeModulesComponent implements OnInit {
     {
       "id": "2",
       "section_id": "1",
-      "name": "Français",
+      "name": "C#",
       "bg_img": "/assets/logo.png"
     },
     {
       "id": "3",
       "section_id": "1",
-      "name": "Maths",
+      "name": "Python",
       "bg_img": "/assets/logo.png"
     },
     {
@@ -47,13 +47,13 @@ export class ListeModulesComponent implements OnInit {
     {
       "id": "5",
       "section_id": "2",
-      "name": "Course relais",
+      "name": "Français",
       "bg_img": "/assets/logo.png"
     },
     {
       "id": "6",
       "section_id": "2",
-      "name": "Intelligence Artificielle",
+      "name": "Apprendre les Mathématiques",
       "bg_img": "/assets/logo.png"
     }
 

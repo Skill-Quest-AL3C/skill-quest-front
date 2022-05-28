@@ -17,11 +17,16 @@ export class CoursComponent implements OnInit {
     this.routeSub = new Subscription;
   }
 
+  // fix : faire passer le module dans le composant et non pas l'id du cours
   ngOnInit() {
     this.routeSub = this.route.params.subscribe(params => {
       console.log(params);
       this.current_module = params['id']; // store the value of the current module id
     });
+  }
+
+  goToModule() {
+    this.router.navigateByUrl('/module/' + this.current_module);
   }
 
 }

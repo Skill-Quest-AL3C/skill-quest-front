@@ -6,6 +6,10 @@ module.exports = {
       title_section: ["VT323"],
     },
     extend: {
+      backgroundImage: {
+        'background' : "url('/assets/background.jpg')",
+        'parchemin' : "url('/assets/parchemin.png')",
+      },
       gridTemplateRows: {
         'layout' : 'auto 1fr auto'
       },
