@@ -10,6 +10,7 @@ import { ExercicesComponent } from './components/exercices/exercices.component';
 import { CoursComponent } from './components/cours/cours.component';
 import { ListeModulesComponent } from './components/liste-modules/liste-modules.component';
 import { UserComponent } from './users/user/user.component';
+import { QuizComponent } from './components/exercices/quiz/quiz.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { UserComponent } from './users/user/user.component';
     CoursComponent,
     ListeModulesComponent,
     UserComponent,
+    QuizComponent,
   ],
   imports: [
     BrowserModule,
