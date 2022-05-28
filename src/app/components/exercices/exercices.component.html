@@ -1,4 +1,4 @@
-<div class="min-h-full px-8 flex justify-center">
+<div class="min-h-full px-8 flex justify-center text-black">
     <div class="bg-white w-full h-fit rounded-3xl opacity-80 flex flex-col p-8">
       <!-- bouton retour module -->
       <div (click)="goToModule()"  class="flex gap-1 text-sm cursor-pointer">
@@ -19,10 +19,11 @@
         retour au module
       </div>
       <div class="self-center text-violet-1 font-display text-6xl">Titre de l'exercice</div>
-      <app-quiz></app-quiz>
+      <app-progression-bar class="self-center my-6"></app-progression-bar>
+      <app-quiz class="self-center"></app-quiz>
       <!-- mettre des boutons pour combler -->
       <!-- exo suivant, aller aux cours ect.. -->
-      <div class="self-end bg-parchemin bg-center bg-cover bg-no-repeat w-36 h-52 origin-top-left rotate-12"></div>
+      <!-- <div class="self-end bg-parchemin bg-center bg-cover bg-no-repeat w-36 h-52 origin-top-left rotate-12"></div> -->
     </div>
     
   </div>

@@ -11,6 +11,8 @@ import { CoursComponent } from './components/cours/cours.component';
 import { ListeModulesComponent } from './components/liste-modules/liste-modules.component';
 import { UserComponent } from './users/user/user.component';
 import { QuizComponent } from './components/exercices/quiz/quiz.component';
+import { ProgressionBarComponent } from './components/exercices/quiz/progression-bar/progression-bar.component';
+import { QcmComponent } from './components/exercices/quiz/qcm/qcm.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { QuizComponent } from './components/exercices/quiz/quiz.component';
     ListeModulesComponent,
     UserComponent,
     QuizComponent,
+    ProgressionBarComponent,
+    QcmComponent,
   ],
   imports: [
     BrowserModule,
