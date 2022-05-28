@@ -1,5 +1,5 @@
-<div class="relative min-h-full px-8 flex justify-center">
-  <div class="bg-white w-4/5 rounded-3xl opacity-80 flex flex-col p-8">
+<div class="min-h-full px-8 flex justify-center">
+  <div class="bg-white min-w-full min-h-fit rounded-3xl opacity-80 flex flex-col p-8">
     <div (click)="goToModule()"  class="flex gap-1 text-sm cursor-pointer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -17,8 +17,8 @@
       </svg>
       retour au module
     </div>
-    <div class="self-center font-display text-6xl">Titre du chapitre</div>
-    <div class="font-display text-4xl p-4">Titre de la partie</div>
+    <div class="self-center text-violet-1 font-display text-6xl">Titre du chapitre</div>
+    <div class="font-display text-bleu-1 text-4xl p-4">Titre de la partie</div>
     <div class="text-justify py-4 px-8">
       <ul class="list-disc p-8">
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -237,6 +237,9 @@
       dolor nec augue molestie aliquam. Orci varius natoque penatibus et magnis
       dis parturient montes, nascetur ridiculus mus.
     </div>
+    <!-- mettre des boutons pour combler -->
+    <!-- cours suivant, aller aux exos ect.. -->
+    <div class="self-end bg-parchemin bg-center bg-cover bg-no-repeat w-36 h-52 origin-top-left rotate-12"></div>
   </div>
-  <div class="absolute bottom-0 right-0 bg-parchemin bg-center bg-cover bg-no-repeat w-36 h-52 origin-top-left rotate-12 -translate-x-20 translate-y-8"></div>
+  
 </div>
