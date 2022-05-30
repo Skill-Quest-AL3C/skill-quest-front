@@ -3,7 +3,7 @@
   <!-- Modules par sections -->
   <div *ngFor="let section of sections">
     <div class="block p-6 max-w-full">
-      <span class="font-display text-vert-1 text-4xl">Recommendé : {{ section.name }}</span>
+      <span class="font-display text-vert-1 text-4xl">Recommandé : {{ section.name }}</span>
     </div>
     <div class="flex justify-center gap-20 mt-4 mb-12">
       <div *ngFor="let module of getModulesBySectionId(section.id)">
