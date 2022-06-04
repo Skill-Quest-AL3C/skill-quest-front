@@ -65,7 +65,7 @@ export class QcmComponent implements OnInit {
   }
   ngOnInit(): void {}
 
-  loadQuiz() {
+  /*loadQuiz() {
     this.deselectAnswers();
 
     const currentQuizData = this.quizData[this.currentQuiz];
@@ -78,5 +78,5 @@ export class QcmComponent implements OnInit {
   }
   deselectAnswers() {
     this.answerEls.forEach((answerEl) => (answerEl.checked = false));
-  }
+  }*/
 }
