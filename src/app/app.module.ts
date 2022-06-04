@@ -13,6 +13,7 @@ import { UserComponent } from './users/user/user.component';
 import { QuizComponent } from './components/exercices/quiz/quiz.component';
 import { ProgressionBarComponent } from './components/exercices/quiz/progression-bar/progression-bar.component';
 import { QcmComponent } from './components/exercices/quiz/qcm/qcm.component';
+import { UserHudComponent } from './components/exercices/quiz/user-hud/user-hud.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { QcmComponent } from './components/exercices/quiz/qcm/qcm.component';
     QuizComponent,
     ProgressionBarComponent,
     QcmComponent,
+    UserHudComponent,
   ],
   imports: [
     BrowserModule,
