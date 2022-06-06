@@ -1,17 +1,28 @@
-<div class="text-center text-violet-1 font-display text-5xl mb-8">
-  Quelle est la question ?
-</div>
-<div class="flex flex-col items-center btn-grid gap-5">
-  <button class="btn btn-wide btn-primary rounded-full">
-    Reponse 1
-  </button>
-  <button class="btn btn-wide btn-primary rounded-full">
-    Reponse 2
-  </button>
-  <button class="btn btn-wide btn-primary rounded-full">
-    Reponse 3
-  </button>
-  <button class="btn btn-wide btn-primary rounded-full">
-    Reponse 4
-  </button>
+<div class="container-fluid mt-10 flex align-content-center justify-center">
+  <div
+    class="bg-white p-8 border rounded-3xl border-slate-300 shadow-lg shadow-gray-500/50 sm:w-full mx-5 lg:w-5/6"
+  >
+    <h1 class="text-4xl font-extrabold text-center">
+      Bienvenue dans le donjon "TypeScript"
+    </h1>
+    <p class="text-center text-lg">Votre épopée va contenir 9 questions.</p>
+    <h4 class="text-2xl text-center font-bold mt-20">Règles:</h4>
+    <ol class="list-decimal flex flex-col items-center text-center ml-5 text-lg m-4">
+      <li>Une réponse correcte donne 10xp et 10 pièces d'or.</li>
+      <li>Une réponse incorrecte vous retire 10xp et 10 pièces d'or.</li>
+      <li>Vous avez 10sec pour répondre à chaque question</li>
+    </ol>
+    <h1 class="text-center font-semibold text-4xl mt-20">
+      Que la chance soit avec vous, aventurier !
+    </h1>
+
+    <div class="flex justify-center">
+      <button
+        class="transition mt-5 ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-blue-500/50 py-2 px-3 rounded-lg font-bold text-white hover:bg-blue-600"
+        routerLink="./question"
+      >
+        Commencer l'exploration
+      </button>
+    </div>
+  </div>
 </div>
