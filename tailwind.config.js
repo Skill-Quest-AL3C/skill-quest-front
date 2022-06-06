@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         background: "url('/assets/background.jpg')",
         parchemin: "url('/assets/parchemin.png')",
+        piece: "url('/assets/piece.png')"
       },
       gridTemplateRows: {
         layout: "auto 1fr auto",

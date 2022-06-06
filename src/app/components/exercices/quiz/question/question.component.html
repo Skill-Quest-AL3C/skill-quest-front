@@ -1,11 +1,11 @@
-<div class="container-fluid mt-10 flex align-content-center justify-center">
+<div class="container-fluid flex align-content-center justify-center">
   <div
     class="bg-white p-8 border rounded-xl border-slate-300 sm:w-full mx-5 lg:w-10/12 xl:w-1/2"
   >
     <ng-container *ngIf="!isQuizCompleted">
       <div class="flex justify-around py-3 text-lg font-bold">
         <div class="score">
-          <h5>{{ points }} XP - {{ points }} Or</h5>
+          <h5 class="flex items-center">{{ points }} &nbsp; XP  &nbsp;&nbsp; {{ points }} &nbsp; <div class="bg-piece bg-contain bg-no-repeat w-6 h-6"></div></h5>
         </div>
         <div class="question-remaining">
           <span
@@ -48,28 +48,6 @@
             </div>
           </li>
         </ol>
-      </div>
-      <div class="flex justify-end mt-10">
-        <button
-          class="inline-flex items-center justify-center w-16 h-16 mr-2 text-indigo-100 transition-colors duration-150 bg-vert-1 rounded-full focus:shadow-outline hover:bg-blue-800"
-          (click)="nextQuestion()"
-          [disabled]="currentQuestion === questionList.length - 1"
-        >
-          <svg
-            class="w-10 h-10"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="5"
-              d="M9 5l7 7-7 7"
-            ></path>
-          </svg>
-        </button>
       </div>
     </ng-container>
 

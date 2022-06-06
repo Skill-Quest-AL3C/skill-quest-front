@@ -33,14 +33,6 @@ export class QuestionComponent implements OnInit {
     });
   }
 
-  nextQuestion() {
-    this.currentQuestion++;
-  }
-
-  prevQuestion() {
-    this.currentQuestion--;
-  }
-
   answer(currentQno: number, option: any) {
     if (currentQno === this.questionList.length) {
       this.isQuizCompleted = true;
