@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
@@ -12,8 +17,12 @@ import { ListeModulesComponent } from './components/liste-modules/liste-modules.
 import { UserComponent } from './users/user/user.component';
 import { QuizComponent } from './components/exercices/quiz/quiz.component';
 import { ProgressionBarComponent } from './components/exercices/quiz/progression-bar/progression-bar.component';
-import { QcmComponent } from './components/exercices/quiz/qcm/qcm.component';
 import { UserHudComponent } from './components/exercices/quiz/user-hud/user-hud.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { QuestionFormComponent } from './components/exercices/quiz/question-form/question-form.component';
+import { QuestionsComponent } from './components/exercices/quiz/questions/questions.component';
+import { ResultsComponent } from './components/exercices/quiz/results/results.component';
+import { WelcomeComponent } from './components/exercices/quiz/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +36,21 @@ import { UserHudComponent } from './components/exercices/quiz/user-hud/user-hud.
     UserComponent,
     QuizComponent,
     ProgressionBarComponent,
-    QcmComponent,
     UserHudComponent,
+    QuestionFormComponent,
+    QuestionsComponent,
+    ResultsComponent,
+    WelcomeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatGridListModule,
+    MatButtonModule,
+    MatCardModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

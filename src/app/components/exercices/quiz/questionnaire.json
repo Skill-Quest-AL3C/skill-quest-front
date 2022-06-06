@@ -1,0 +1,86 @@
+[
+  {
+    "question": "Quel langage est interprété par un navigateur web ?",
+    "choix": [
+      {
+        "value": "Java",
+        "correct": false
+      },
+      {
+        "value": "C",
+        "correct": false
+      },
+      {
+        "value": "JavaScript",
+        "correct": true
+      },
+      {
+        "value": "Python",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Que veux dire l'acronyme CSS?",
+    "choix": [
+      {
+        "value": "Central Style Sheets",
+        "correct": false
+      },
+      {
+        "value": "Cascading Style Sheets",
+        "correct": true
+      },
+      {
+        "value": "Cascading Simple Sheets",
+        "correct": false
+      },
+      {
+        "value": "Cars SUVs Sailboats",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Que veux dire l'acronyme HTML?",
+    "choix": [
+      {
+        "value": "Hypertext Markup Language",
+        "correct": true
+      },
+      {
+        "value": "Hypertext Markdown Language",
+        "correct": false
+      },
+      {
+        "value": "Hyperloop Machine Language",
+        "correct": false
+      },
+      {
+        "value": "Helicopters Terminals Motorboats Lamborginis",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Quel est l'année de lancement du langage JavaScript ?",
+    "choix": [
+      {
+        "value": "1996",
+        "correct": false
+      },
+      {
+        "value": "1995",
+        "correct": true
+      },
+      {
+        "value": "1994",
+        "correct": false
+      },
+      {
+        "value": "aucune des propositions",
+        "correct": false
+      }
+    ]
+  }
+]

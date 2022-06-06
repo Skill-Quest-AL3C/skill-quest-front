@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { Quiz } from './quiz.model';
 
 @Component({
   selector: 'app-quiz',
   templateUrl: './quiz.component.html',
-  styleUrls: ['./quiz.component.css']
+  template:'<router-outlet></router-outlet>',
 })
 export class QuizComponent implements OnInit {
-
-  constructor() { }
-
+  quiz!: Quiz;
+  
   ngOnInit(): void {
+    throw new Error('Method not implemented.');
   }
 
+  
 }
