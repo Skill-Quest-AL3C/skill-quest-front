@@ -1,7 +1,7 @@
 <div class="min-h-full px-8 flex justify-center text-black">
   <div class="bg-foret bg-no-repeat bg-center bg-cover w-4/5 h-[51rem] rounded-3xl flex flex-col p-6">
     <!-- bouton retour module -->
-    <div (click)="goToModule()" class="flex gap-1 text-sm w-fit items-center text-gray-500 cursor-pointer">
+    <div (click)="goToModule()" class="flex gap-1 text-sm w-fit items-center text-gray-500 cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:-skew-y-3 hover:text-bleu-1">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-6 w-6"
@@ -19,7 +19,7 @@
       entree du donjon
     </div>
     <div class="flex justify-between items-center mb-4 px-6">
-      <div class="text-bleu-2 font-display text-xl backdrop-hue-rotate-60 p-1">
+      <div class="text-bleu-2 font-display text-xl backdrop-hue-rotate-60 p-1 duration-300 ease-in-out hover:transition-all hover:duration-500 hover:-skew-y-3 hover:backdrop-hue-rotate-90">
         Tes connaissances en TypeScript
       </div>
       <app-user-hud></app-user-hud>
@@ -32,14 +32,14 @@
     <div class="flex flex-col items-center mt-6">
       <div class="backdrop-blur-sm backdrop-hue-rotate-60 flex flex-col items-center text-violet-1 font-display text-2xl self-center border rounded-lg p-4">
         Récompenses possibles :
-        <div class="flex text-bleu-2"><div class="bg-xp bg-contain bg-no-repeat w-10 h-10"></div> x90</div>
-        <div class="flex text-bleu-2"><div class="bg-piece bg-contain bg-no-repeat w-10 h-10 mr-1"></div> x90</div> 
+        <div class="flex text-bleu-2"><div class="bg-xp bg-contain bg-no-repeat w-8 h-10"></div> x90</div>
+        <div class="flex text-bleu-2"><div class="bg-piece bg-contain bg-no-repeat w-8 h-10 mr-1"></div> x90</div> 
       </div>
       <div class="self-end flex gap-4">
-        <button class="text-orange-1 font-display text-2xl">
+        <button class="text-orange-1 font-display text-2xl duration-300 ease-in-out hover:transition-all hover:duration-500 hover:text-3xl hover:scale-110">
           Exercice précédent
         </button>
-        <button class="text-vert-1 font-display text-2xl">
+        <button class="text-vert-1 font-display text-2xl duration-300 ease-in-out hover:transition-all hover:duration-500 hover:text-3xl hover:scale-110">
           Exercice suivant
         </button>
       </div>
