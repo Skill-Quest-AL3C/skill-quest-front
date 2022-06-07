@@ -1,0 +1,175 @@
+{
+  "questions": [
+    {
+      "questionText": "Laquelle des ponctuations suivantes est utilisée pour spécifier le typage des attributs en TypeScript ?",
+      "options": [
+        {
+          "text": ":",
+          "correct": true
+        },
+        {
+          "text": ";"
+        },
+        {
+          "text": "!"
+        },
+        {
+          "text": "&"
+        }
+      ],
+      "explanation": "TS utilise les deux points (:) pour séparer le nom de l'attribut de son type"
+    },
+    {
+      "questionText": "Lequel des type suivant n'est pas utilisable en TypeScript ?",
+      "options": [
+        {
+          "text": "number"
+        },
+        {
+          "text": "string"
+        },
+        {
+          "text": "boolean"
+        },
+        {
+          "text": "enum",
+          "correct": true
+        }
+      ],
+      "explanation": "enum n'est pas un type utilisable en TypeScript"
+    },
+    {
+      "questionText": "Comment peut-on spécifier les propriétés et les méthodes d'un objet en TypeScript?",
+      "options": [
+        {
+          "text": "Avec des classes."
+        },
+        {
+          "text": "Avec des interfaces.",
+          "correct": true
+        },
+        {
+          "text": "Avec des enumérations."
+        },
+        {
+          "text": "Avec le mot clé async/await."
+        }
+      ],
+      "explanation": "les interfaces sont communément utilisés pour lister les propriétés et méthodes d'un objet"
+    },
+    {
+      "questionText": "Quel est l'autre écriture pour Array<number> en TypeScript?",
+      "options": [
+        {
+          "text": "@number"
+        },
+        {
+          "text": "number[]",
+          "correct": true
+        },
+        {
+          "text": "number!"
+        },
+        {
+          "text": "number?"
+        }
+      ],
+      "explanation": "number[] l'autre façon d'écrire Array<number> en TypeScript"
+    },
+    {
+      "questionText": "Laquelle de ces méthodes spéciales permet a une classe de prendre des paramètres ?",
+      "options": [
+        {
+          "text": "constructor",
+          "correct": true
+        },
+        {
+          "text": "destructor"
+        },
+        {
+          "text": "import"
+        },
+        {
+          "text": "subscribe"
+        }
+      ],
+      "explanation": "le constructeur (constructor) est utilisé par une classe pour prendre des parametres"
+    },
+    {
+      "questionText": "Lequel de ces mots clé N'EST PAS un modificateur d'accès ?",
+      "options": [
+        {
+          "text": "private"
+        },
+        {
+          "text": "protected"
+        },
+        {
+          "text": "public"
+        },
+        {
+          "text": "async",
+          "correct": true
+        }
+      ],
+      "explanation": "async n'est pas utilisé en tant que modificateur d'accès en TypeScript"
+    },
+    {
+      "questionText": "Lequel de ces mot-clé nous permet de partager des informations entre les fichiers en TypeScript ?",
+      "options": [
+        {
+          "text": "import"
+        },
+        {
+          "text": "export",
+          "correct": true
+        },
+        {
+          "text": "async"
+        },
+        {
+          "text": "constructor"
+        }
+      ],
+      "explanation": "le mot-clé export permet de transmettre l'information entre les fichiers"
+    },
+    {
+      "questionText": "Lequel de ces méthodes est une méthode de tableau permettant de générer un nouveau tableau en fonction d'une condition ?",
+      "options": [
+        {
+          "text": "filter",
+          "correct": true
+        },
+        {
+          "text": "map"
+        },
+        {
+          "text": "async"
+        },
+        {
+          "text": "enum"
+        }
+      ],
+      "explanation": "filter est une méthode utilisée pour créer conditionnellement un nouveau tableau."
+    },
+    {
+      "questionText": "Comment une propriété peut-elle être accédée au sein d'une classe ?",
+      "options": [
+        {
+          "text": "En utilisant this.propertyName",
+          "correct": true
+        },
+        {
+          "text": "Les Accesseurs"
+        },
+        {
+          "text": "La destructuration de l'objet"
+        },
+        {
+          "text": "La fonction fléchée (lambda)"
+        }
+      ],
+      "explanation": "this.propertyName est la bonne manière d'accéder à une propriété au sein d'une classe"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<div class="flex justify-center gap-10 px-8">
+  <div class="flex grow flex-col items-center gap-10">
+    <span class="text-center font-display text-vert-1 text-4xl">Cours</span>
+    <div
+      *ngFor="let cours of getCours()"
+      [routerLink]="['/cours', cours.id]"
+      class="flex justify-center items-center h-20 w-10/12 rounded-full bg-gradient-to-t from-violet-1 to-vert-1"
+    >
+      <span>{{ cours.name }}</span>
+    </div>
+  </div>
+  <div class="flex grow flex-col items-center gap-10">
+    <span class="text-center font-display text-vert-1 text-4xl">Exercies</span>
+    <div
+      *ngFor="let exercice of getExercices()"
+      [routerLink]="['/exercice', exercice.id]"
+      class="flex justify-center items-center h-20 w-10/12 rounded-full bg-gradient-to-t from-violet-1 to-vert-1"
+    >
+      <span>{{ exercice.name }}</span>
+    </div>
+  </div>
+
+  <!-- Ajouter la div boss -->
+</div>

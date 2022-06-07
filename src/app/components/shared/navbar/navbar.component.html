@@ -1,11 +1,19 @@
-<mat-toolbar role="heading" color="primary" class="toolbar">
-    <div class="logo" routerLink="home"></div>
-    <div class="nav-links">
-      <a mat-button routerLink="home">Accueil</a>
-      <a mat-button routerLink="concept">Le concept</a>
-      <a mat-button routerLink="prices">Les tarifs</a>
-      <a mat-button routerLink="about-us">Découvrir l'équipe</a>
+<nav class="bg-transparent h-max backdrop-blur-md shadow-lg bg-black/30 text-violet-1 flex py-2 px-6 flex-wrap">
+  <!-- Espace navigation -->
+  <div class="w-1/3 flex flex-wrap justify-between items-center">
+    <img [routerLink]="['/liste-modules']" class="max-w-12 max-h-10" src="/assets/home-svgrepo-com.svg" alt="home">
+    <div class="flex items-end py-2">
+      <input class="w-96 max-h-8 border-b-2 border-vert-1 bg-transparent placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-none sm:text-sm" type="text" name="pseudo" />
+      <img class="max-w-6 max-h-8" src="/assets/loupe-svgrepo-com.svg" alt="research">
     </div>
-    <a mat-raised-button routerLink="login" class="login-btn">Se connecter</a>
-</mat-toolbar>
-<router-outlet></router-outlet>
+  </div>
+  <!-- Espace titre -->
+  <div class="w-1/3 flex flex-wrap justify-center items-center">
+    <span class="text-5xl text-center bg-clip-text text-transparent bg-gradient-to-r from-bleu-1 to-violet-1 font-display">Skill Quest</span>
+  </div>
+  <!-- Espace profil -->
+  <div [routerLink]="['/profil', 1]" class="w-1/3 flex flex-wrap justify-end items-center cursor-pointer">
+    <span class="p-4 text-2xl font-display">Profil</span>
+    <div class="w-14 h-14 rounded-full ring-1 ring-vert-1"></div>
+  </div> 
+</nav>
