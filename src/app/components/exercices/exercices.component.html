@@ -1,7 +1,7 @@
 <div class="min-h-full px-8 flex justify-center text-black">
-  <div class="bg-white w-full h-fit rounded-3xl flex flex-col p-8">
+  <div class="bg-foret bg-no-repeat bg-center bg-cover w-4/5 h-[51rem] rounded-3xl flex flex-col p-6">
     <!-- bouton retour module -->
-    <div (click)="goToModule()" class="flex gap-1 text-sm cursor-pointer">
+    <div (click)="goToModule()" class="flex gap-1 text-sm w-fit items-center text-gray-500 cursor-pointer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-6 w-6"
@@ -16,11 +16,11 @@
           d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
         />
       </svg>
-      retour au module
+      entree du donjon
     </div>
-    <div class="flex justify-between">
-      <div class="text-violet-1 font-display text-3xl my-4">
-        Titre de l'exercice
+    <div class="flex justify-between items-center mb-4 px-6">
+      <div class="text-bleu-2 font-display text-xl backdrop-hue-rotate-60 p-1">
+        Tes connaissances en TypeScript
       </div>
       <app-user-hud></app-user-hud>
     </div>
@@ -29,16 +29,17 @@
     <!-- Encart quiz -->
     <router-outlet></router-outlet>
 
-    <div class="flex flex-col">
-      <div class="text-violet-1 font-display text-3xl self-center mt-10">
-        XP a gagner : 10 <br>
-        Or a gagner : 10
+    <div class="flex flex-col items-center mt-6">
+      <div class="backdrop-blur-sm backdrop-hue-rotate-60 flex flex-col items-center text-violet-1 font-display text-2xl self-center border rounded-lg p-4">
+        Récompenses possibles :
+        <div class="flex text-bleu-2"><div class="bg-xp bg-contain bg-no-repeat w-10 h-10"></div> x90</div>
+        <div class="flex text-bleu-2"><div class="bg-piece bg-contain bg-no-repeat w-10 h-10 mr-1"></div> x90</div> 
       </div>
       <div class="self-end flex gap-4">
-        <button class="text-violet-1 font-display text-3xl self-end">
+        <button class="text-orange-1 font-display text-2xl">
           Exercice précédent
         </button>
-        <button class="text-violet-1 font-display text-3xl self-end">
+        <button class="text-vert-1 font-display text-2xl">
           Exercice suivant
         </button>
       </div>

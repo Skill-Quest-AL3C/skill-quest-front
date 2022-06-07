@@ -7,10 +7,16 @@ module.exports = {
 
     },
     extend: {
+      spacing: {
+        '128': '32rem',
+      },
       backgroundImage: {
         background: "url('/assets/background.jpg')",
+        foret: "url('/assets/foret.jpg')",
         parchemin: "url('/assets/parchemin.png')",
-        piece: "url('/assets/piece.png')"
+        piece: "url('/assets/piece.png')",
+        potion: "url('/assets/potion.png')",
+        xp: "url('/assets/xp.png')"
       },
       gridTemplateRows: {
         layout: "auto 1fr auto",
