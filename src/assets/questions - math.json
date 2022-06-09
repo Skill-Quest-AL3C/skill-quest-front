@@ -1,0 +1,175 @@
+{
+  "questions": [
+    {
+      "questionText": "Quel est le double de 37 ?",
+      "options": [
+        {
+          "text": "67"
+        },
+        {
+          "text": "64"
+        },
+        {
+          "text": "74",
+          "correct": true
+        },
+        {
+          "text": "77"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Quelle est la moitié de 86 ?",
+      "options": [
+        {
+          "text": "44"
+        },
+        {
+          "text": "43",
+          "correct": true
+        },
+        {
+          "text": "172"
+        },
+        {
+          "text": "46"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Lequel parmi ces nombres est un nombre premier ?",
+      "options": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "6"
+        },
+        {
+          "text": "3",
+          "correct": true
+        },
+        {
+          "text": "15"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Lequel parmi ces nombres est un multiple de 9 ?",
+      "options": [
+        {
+          "text": "18",
+          "correct": true
+        },
+        {
+          "text": "32"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "3"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Comment se nomme la réponse d'une addition?",
+      "options": [
+        {
+          "text": "la somme",
+          "correct": true
+        },
+        {
+          "text": "la différence"
+        },
+        {
+          "text": "le produit"
+        },
+        {
+          "text": "le quotient"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Quel est le chiffre de centaines dans le nombre 35 458?",
+      "options": [
+        {
+          "text": "35"
+        },
+        {
+          "text": "4",
+          "correct": true
+        },
+        {
+          "text": "354"
+        },
+        {
+          "text": "3"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Qu'est-ce qui correspond à un dixième ?",
+      "options": [
+        {
+          "text": "10"
+        },
+        {
+          "text": "0.01"
+        },
+        {
+          "text": "0.001"
+        },
+        {
+          "text": "0.1",
+          "correct": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Quel nombre décimal correspond à 35% ?",
+      "options": [
+        {
+          "text": "3.5"
+        },
+        {
+          "text": "0.035"
+        },
+        {
+          "text": "0.35",
+          "correct": true
+        },
+        {
+          "text": "35"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "İl me faut 300 g de sucre pour préparer un gâteau pour 5 personnes. Combien de sucre me faut-il pour préparer un gâteau pour 10 personnes?",
+      "options": [
+        {
+          "text": "150g"
+        },
+        {
+          "text": "600g",
+          "correct": true
+        },
+        {
+          "text": "200g"
+        },
+        {
+          "text": "100g"
+        }
+      ],
+      "explanation": ""
+    }
+  ]
+}

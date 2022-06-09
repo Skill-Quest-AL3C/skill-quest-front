@@ -1,0 +1,175 @@
+{
+  "questions": [
+    {
+      "questionText": "J’ai des cheveux…",
+      "options": [
+        {
+          "text": "châtain clair",
+          "correct": true
+        },
+        {
+          "text": "châtains clair"
+        },
+        {
+          "text": "châtains clairs"
+        },
+        {
+          "text": "châtain clairs"
+        }
+      ],
+      "explanation": "Si l’expression de la couleur utilise deux adjectifs juxtaposés, c’est-à-dire un adjectif de couleur et un adjectif qui nuance la couleur (clair, foncé, etc), on n’accorde pas. "
+    },
+    {
+      "questionText": "Elle a acheté des rideaux…",
+      "options": [
+        {
+          "text": "marrons"
+        },
+        {
+          "text": "bleus",
+          "correct": true
+        },
+        {
+          "text": "oranges"
+        },
+        {
+          "text": "turquoises"
+        }
+      ],
+      "explanation": "Seul l’adjectif bleu s’accorde car “marron, orange et turquoise” sont en réalité des noms utilisés comme adjectifs. Le “marron” et l’orange” sont des fruits et la turquoise est une pierre précieuse. vous ne devez pas les accorder."
+    },
+    {
+      "questionText": "Les pommes qu’elle a … sont trop mûres.",
+      "options": [
+        {
+          "text": "acheté"
+        },
+        {
+          "text": "achetée"
+        },
+        {
+          "text": "achetées",
+          "correct": true
+        },
+        {
+          "text": "achetés"
+        }
+      ],
+      "explanation": "On accorde le participe passé avec le COD “qu’ ” mis pour “les pommes”. On doit donc écrire “achetées”."
+    },
+    {
+      "questionText": "Dans les chambres d’hôtel, il y a souvent des …",
+      "options": [
+        {
+          "text": "coffres-forts",
+          "correct": true
+        },
+        {
+          "text": "coffre-fort"
+        },
+        {
+          "text": "coffres-fort"
+        },
+        {
+          "text": "coffre-forts"
+        }
+      ],
+      "explanation": "Quand vous avez un nom composé d’un adjectif et d’un nom (ou inversement), les deux se mettent au pluriel. Par exemple : un rouge-gorge / des rouges-gorges."
+    },
+    {
+      "questionText": "Je ne pense pas qu’il … malade.",
+      "options": [
+        {
+          "text": "est",
+          "correct": true
+        },
+        {
+          "text": "soit"
+        },
+        {
+          "text": "a"
+        },
+        {
+          "text": "ait"
+        }
+      ],
+      "explanation": "Après un verbe d’opinion à la forme négative, le verbe est au subjonctif. "
+    },
+    {
+      "questionText": "La plupart des voitures…",
+      "options": [
+        {
+          "text": "sont gris."
+        },
+        {
+          "text": "sont grises",
+          "correct": true
+        },
+        {
+          "text": "est grises"
+        },
+        {
+          "text": "est grise"
+        }
+      ],
+      "explanation": "Quand “la plupart” est suivi d’un complément, on accorde en genre et en nombre avec le complément. S’il n’y a pas de complément, le verbe se met au masculin pluriel."
+    },
+    {
+      "questionText": "Quel nombre est mal écrit ?",
+      "options": [
+        {
+          "text": "Six mille un"
+        },
+        {
+          "text": "sept cents millions"
+        },
+        {
+          "text": "Quatre-vingts-sept",
+          "correct": true
+        },
+        {
+          "text": "Huit cent vingt"
+        }
+      ],
+      "explanation": "Lorsque « vingt » ou « cent » sont suivis d’un autre nombre, ils restent invariables. Il faut donc écrire quatre-vingt-sept."
+    },
+    {
+      "questionText": "Au cas où…",
+      "options": [
+        {
+          "text": "il est absent"
+        },
+        {
+          "text": "il sera absent"
+        },
+        {
+          "text": "il serait absent",
+          "correct": true
+        },
+        {
+          "text": "il soit absent"
+        }
+      ],
+      "explanation": "«Au cas où» est toujours suivi du conditionnel. Pour être exact, il faut donc écrire : «Au cas où il serait absent.»"
+    },
+    {
+      "questionText": "Je vous … ce paquet de la part de Sophie.",
+      "options": [
+        {
+          "text": "emmène"
+        },
+        {
+          "text": "apporte",
+          "correct": true
+        },
+        {
+          "text": "amène"
+        },
+        {
+          "text": "emporte"
+        }
+      ],
+      "explanation": "On apporte ou on emporte une chose, un objet mais on amène ou on emmène une personne, un animal. Dans cette phrase, on parle d’un paquet donc d’un objet, vous devez donc choisir entre “apporte” ou “emporte”. Cette phrase signifie que la personne porte dans les mains une chose pour la déposer à un destinataire, vous devez donc choisir “apporte”. “Emporter” signifie prendre un objet avec soi en quittant un lieu. "
+    }
+  ]
+}

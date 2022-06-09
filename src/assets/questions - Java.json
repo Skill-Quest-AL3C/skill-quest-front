@@ -1,0 +1,175 @@
+{
+  "questions": [
+    {
+      "questionText": "Laquelle des phrases suivantes est vrais en ce qui concerne la récursivité ?",
+      "options": [
+        {
+          "text": "La récursivité est une action qui s'initialise à l'intérieur d'elle-même.",
+          "correct": true
+        },
+        {
+          "text": "La récursivité est une boucle infini."
+        },
+        {
+          "text": "La récursivité est utilisée pour effectuer certaines actions périodiquement."
+        },
+        {
+          "text": "La récursivité est une boucle puissante."
+        }
+      ],
+      "explanation": "La récursivité c'est quand une fonction s'appelle elle-même jusqu'à atteindre une condition d'arrêt. Elle arrête alors de s'appeler elle-même."
+    },
+    {
+      "questionText": "Qu'est-ce que la gestion des exceptions en programmation ?",
+      "options": [
+        {
+          "text": "Ensemble de fonction qui doivent être utilisé avec précaution."
+        },
+        {
+          "text": "Une technique utilisée pour rendre compte des cas d'utilisation possibles et traiter ces cas en conséquence, sans provoquer un plantage de l'application.",
+          "correct": true
+        },
+        {
+          "text": "Cas sépcifique demande beaucoup d'attention sur les détails permettant au programme d'être 4 fois plus rapide"
+        },
+        {
+          "text": "enum"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Qu’est-ce qu’une interface fonctionnelle ?",
+      "options": [
+        {
+          "text": "Une classe abstraite avec la définition des méthodes nécessaires pour l’utilisation d’une expression Lambda."
+        },
+        {
+          "text": "Une interface avec la signature unique d'une méthode pouvant être utilisée dans l’expression Lambda.",
+          "correct": true
+        },
+        {
+          "text": "Une interface avec la signature de l’ensemble des méthodes utiles pour l’expression Lambda."
+        },
+        {
+          "text": "Une interface fonctionnelle est une interface avec une unique méthode abstraite (abstract). Le comportement de celle-ci sera déterminé lors de la définition d’une expression Lambda. "
+        }
+      ],
+      "explanation": "les interfaces sont communément utilisés pour lister les propriétés et méthodes d'un objet"
+    },
+    {
+      "questionText": "Séléctionner l'extrait de code d'une chaîne de caractères qui ne peut pas changer.",
+      "options": [
+        {
+          "text": "int steps; steps = 11;"
+        },
+        {
+          "text": "final String title = 'Ce quizz est incroyable';",
+          "correct": true
+        },
+        {
+          "text": "final int steps = 11;"
+        },
+        {
+          "text": "String title = 'Programming is art!';"
+        }
+      ],
+      "explanation": "Final  indique une constante. Sinon, les valeurs peuvent changer."
+    },
+    {
+      "questionText": "Le Java reprend la syntaxe de quel language ?",
+      "options": [
+        {
+          "text": "C++",
+          "correct": true
+        },
+        {
+          "text": "Perl"
+        },
+        {
+          "text": "PHP"
+        },
+        {
+          "text": "JavaScript"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Comment construire une énumération 'MaListe' ?",
+      "options": [
+        {
+          "text": "public class objects MaListe { }"
+        },
+        {
+          "text": "public class enum MaListe { }"
+        },
+        {
+          "text": "public objects MaListe { }"
+        },
+        {
+          "text": "public class objects MaListe { }",
+          "correct": true
+        }
+      ],
+      "explanation": "Enum est une classe permettant la gestion de liste"
+    },
+    {
+      "questionText": "Laquelle des signatures de méthode suivantes est une déclaration valide d’un point d’entrée dans une application Java ?",
+      "options": [
+        {
+          "text": "public void main(String[] args)"
+        },
+        {
+          "text": "public static void main()"
+        },
+        {
+          "text": "public static final void main(String[] mydata)",
+          "correct": true
+        },
+        {
+          "text": "private static void start(String[] mydata)"
+        }
+      ],
+      "explanation": "Un point d'entrée dans une application Java consiste en une méthode main() avec un seul argument String[], un type de résultat de void et des modificateurs public et static."
+    },
+    {
+      "questionText": "Quelle est l'extension de nom de fichier appropriée pour un fichier compilé en bytecode Java?",
+      "options": [
+        {
+          "text": ".class",
+          "correct": true
+        },
+        {
+          "text": ".bytecode"
+        },
+        {
+          "text": ".java"
+        },
+        {
+          "text": ".dll"
+        }
+      ],
+      "explanation": "Les classe, les méthodes, les variables sont stockés dans des fichiers .class"
+    },
+    {
+      "questionText": "Quel méthode est utilisé pour obtenir la longueur d'une chaîne ?",
+      "options": [
+        {
+          "text": "getSize()"
+        },
+        {
+          "text": "getLength()"
+        },
+        {
+          "text": "len()"
+        },
+        {
+          "text": "length()",
+          "correct": true
+        }
+      ],
+      "explanation": "variable.lenth() est un bon moyen pour obtenir la longueur d'une chaîne."
+    }
+  ]
+}
