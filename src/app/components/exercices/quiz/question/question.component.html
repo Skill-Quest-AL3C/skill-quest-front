@@ -1,11 +1,11 @@
 <div class="container-fluid flex align-content-center justify-center">
   <div
-    class="bg-white p-8 border rounded-xl border-slate-300 sm:w-full mx-5 lg:w-10/12 xl:w-1/2"
+    class="bg-white/80 p-6 border rounded-xl border-slate-300 sm:w-full mx-5 lg:w-10/12 xl:w-1/2 h-[30rem]"
   >
     <ng-container *ngIf="!isQuizCompleted">
-      <div class="flex justify-around py-3 text-lg font-bold">
+      <div class="flex justify-around py-2 text-lg font-bold">
         <div class="score">
-          <h5 class="flex items-center">{{ points }} &nbsp; XP  &nbsp;&nbsp; {{ points }} &nbsp; <div class="bg-piece bg-contain bg-no-repeat w-6 h-6"></div></h5>
+          <h5 class="flex items-center">{{ points }} points</h5>
         </div>
         <div class="question-remaining">
           <span
@@ -17,7 +17,7 @@
           <h5>{{ counter }} sec ⌛</h5>
         </div>
       </div>
-      <div class="w-full bg-gray-200 rounded-full dark:bg-gray-150">
+      <div class="w-full bg-slate-400 rounded-full dark:bg-gray-150">
         <div
           class="bg-violet-1 h-6 text-lg font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
           [ngStyle]="{ width: progress + '%' }"
@@ -25,9 +25,9 @@
           {{ progress }}%
         </div>
       </div>
-      <div class="question mt-6">
+      <div class="question mt-2">
         <div
-          class="bg-white px-3 py-4 rounded-xl w-full text-center"
+          class="px-3 py-4 rounded-xl w-full text-center"
         >
           <h3 class="text-xl font-bold">
             {{ questionList[currentQuestion]?.questionText }}
@@ -42,7 +42,7 @@
             <div
               appChangeBg
               [isCorrect]="option.correct"
-              class="px-3 py-4 border rounded-xl border-slate-300 w-full cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:bg-bleu-1 text-lg font-semibold"
+              class="px-3 py-4 border rounded-xl border-slate-300 w-full cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:ring hover:ring-bleu-1 text-lg font-semibold"
             >
               {{ option.text }}
             </div>
@@ -52,16 +52,16 @@
     </ng-container>
 
     <ng-container *ngIf="isQuizCompleted">
-      <div class="row flex justify-center">
+      <div class="row flex justify-center items-center">
         <div class="text-center col-md-6 col-sm-12">
-          <h3 class="text-xl font-bold">
+          <h3 class="text-xl pb-10 font-bold">
             Félicitations!! <br />Vous avez complété cette épreuve<br />
             Voici vos résultats:
           </h3>
           <p>Nombre de questions répondues : {{ questionList.length }}</p>
           <p>Nombre de réponses correctes : {{ correctAnswer }}</p>
           <p>Nombre de réponses incorrectes : {{ incorrectAnswer }}</p>
-          <p class="text-xl font-bold">Vous remportez : {{ points }} XP et {{ points }} Or</p>
+          <p class="text-xl pt-10 font-bold">Vous remportez : {{ points }} XP et {{ points }} Or</p>
         </div>
       </div>
     </ng-container>

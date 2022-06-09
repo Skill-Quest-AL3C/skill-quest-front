@@ -1,20 +1,21 @@
 <!-- trouver un meilleur moyen de présenter les modules -->
-<div class="px-8 min-h-screen">
+<div class="px-8 min-h-full">
   <!-- Modules par sections -->
   <div *ngFor="let section of sections">
     <div class="block p-6 max-w-full">
       <span class="font-display text-vert-1 text-4xl">Recommandé : {{ section.name }}</span>
     </div>
-    <div class="flex justify-center gap-20 mt-4 mb-12">
+    <div class="flex justify-center gap-20 mt-4 mb-10">
       <div *ngFor="let module of getModulesBySectionId(section.id)">
-        <div class="flex flex-col justify-end items-center 
-                 p-4 w-72 h-56 
-                 rounded-3xl shadow-md shadow-inner ring-1 ring-bleu-1 
+        <div class="flex flex-col 
+                p-2 w-72 h-56 
+                 rounded-3xl shadow-md shadow-inner ring-1 ring-bleu-1 subpixel-antialiased
                  backdrop-blur-sm bg-white/20
-                 overflow-hidden"
+                 cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:scale-110 hover:ring-1 hover:ring-vert-1 hover:backdrop-saturate-200 hover:backdrop-contrast-200
+                 text-white hover:text-vert-1 hover:text-xl hover:font-bold hover:tracking-widest"
              [routerLink]="['/module', module.id]">
-            <img src="{{ module.bg_img }}" class="h-full w-full">
-            <span class="text-white">{{ module.name }}</span>
+            <div class="bg-logo bg-contain bg-no-repeat bg-center h-full w-full"></div>
+            <span class="text-center">{{ module.name }}</span>
         </div>
       </div>
     </div>

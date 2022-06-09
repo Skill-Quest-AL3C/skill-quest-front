@@ -1,8 +1,8 @@
-<nav class="bg-transparent h-max backdrop-blur-md shadow-lg bg-black/30 text-violet-1 flex py-2 px-6 flex-wrap">
+<nav class="bg-transparent h-max backdrop-blur-md shadow-lg bg-black/30 text-violet-1 flex py-2 px-6 flex flex-wrap">
   <!-- Espace navigation -->
-  <div class="w-1/3 flex flex-wrap justify-between items-center">
-    <img [routerLink]="['/liste-modules']" class="max-w-12 max-h-10" src="/assets/home-svgrepo-com.svg" alt="home">
-    <div class="flex items-end py-2">
+  <div class="w-1/3 flex grow flex-wrap justify-evenly items-center gap-10">
+    <img [routerLink]="['/liste-modules']" class="max-w-12 max-h-10 cursor-pointer hover:scale-110 duration-300 ease-in-out hover:transition-all hover:duration-500" src="/assets/home-svgrepo-com.svg" alt="home">
+    <div class="grow flex items-end py-2">
       <input class="w-96 max-h-8 border-b-2 border-vert-1 bg-transparent placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-none sm:text-sm" type="text" name="pseudo" />
       <img class="max-w-6 max-h-8" src="/assets/loupe-svgrepo-com.svg" alt="research">
     </div>

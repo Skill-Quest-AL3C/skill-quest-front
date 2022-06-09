@@ -12,22 +12,22 @@ export class ModulesComponent implements OnInit {
     {
       id: '1',
       id_module: '1',
-      name: 'exercice 1 1',
+      name: 'Exercice 1',
     },
     {
       id: '2',
       id_module: '1',
-      name: 'exercice 2 1',
+      name: 'Exercice 2',
     },
     {
       id: '3',
       id_module: '1',
-      name: 'exercice 3 1',
+      name: 'Exercice 3',
     },
     {
       id: '4',
       id_module: '1',
-      name: 'exercice 4 1',
+      name: 'Exercice 4',
     },
     {
       id: '1',
@@ -55,22 +55,22 @@ export class ModulesComponent implements OnInit {
     {
       id: '1',
       id_module: '1',
-      name: 'cours 1 1',
+      name: '1. Les bases du TypeScript',
     },
     {
       id: '2',
       id_module: '1',
-      name: 'cours 2 1',
+      name: '2. Syntaxe de base',
     },
     {
       id: '3',
       id_module: '1',
-      name: 'cours 3 1',
+      name: '3. Les classes en TypeScript',
     },
     {
       id: '4',
       id_module: '1',
-      name: 'cours 4 1',
+      name: '4. Type ou interface ?',
     },
     {
       id: '1',
