@@ -23,7 +23,7 @@ export class ListeModulesComponent implements OnInit {
     {
       "id": "1",
       "section_id": "1",
-      "name": "Java",
+      "name": "TypeScript",
       "bg_img": "/assets/logo.png" 
     },
     {
