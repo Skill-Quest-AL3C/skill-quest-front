@@ -13,12 +13,8 @@ import { UserComponent } from './users/user/user.component';
 import { QuizComponent } from './components/exercices/quiz/quiz.component';
 import { ProgressionBarComponent } from './components/exercices/quiz/progression-bar/progression-bar.component';
 import { UserHudComponent } from './components/exercices/quiz/user-hud/user-hud.component';
-<<<<<<< Updated upstream
 import { QuestionComponent } from './components/exercices/quiz/question/question.component';
 import { ChangeBgDirective } from './components/exercices/quiz/change-bg.directive';
-=======
-import { BackgroundDirective } from './components/exercices/background.directive';
->>>>>>> Stashed changes
 
 @NgModule({
   declarations: [
@@ -33,12 +29,8 @@ import { BackgroundDirective } from './components/exercices/background.directive
     QuizComponent,
     ProgressionBarComponent,
     UserHudComponent,
-<<<<<<< Updated upstream
     QuestionComponent,
     ChangeBgDirective,
-=======
-    BackgroundDirective,
->>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
