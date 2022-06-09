@@ -16,7 +16,10 @@ module.exports = {
         parchemin: "url('/assets/parchemin.png')",
         piece: "url('/assets/piece.png')",
         potion: "url('/assets/potion.png')",
-        xp: "url('/assets/xp.png')"
+        xp: "url('/assets/xp.png')",
+        logo: "url('/assets/logo.png')",
+        "cadenas-or": "url('/assets/cadenas-or.png')",
+        "boss": "url('/assets/boss.png')"
       },
       gridTemplateRows: {
         layout: "auto 1fr auto",

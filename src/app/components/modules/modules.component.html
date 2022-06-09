@@ -1,24 +1,41 @@
-<div class="flex justify-center gap-10 px-8">
+<div class="flex justify-evenly text-black gap-10 px-8">
   <div class="flex grow flex-col items-center gap-10">
     <span class="text-center font-display text-vert-1 text-4xl">Cours</span>
     <div
       *ngFor="let cours of getCours()"
       [routerLink]="['/cours', cours.id]"
-      class="flex justify-center items-center h-20 w-10/12 rounded-full bg-gradient-to-t from-violet-1 to-vert-1"
+      class="relative flex justify-center items-center h-20 w-[40rem] rounded-full bg-gradient-to-t from-violet-1 to-vert-1 font-bold
+             cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:scale-110 hover:-skew-y-2 hover:hue-rotate-90"
     >
       <span>{{ cours.name }}</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-10 absolute right-6" viewBox="0 0 20 20">
+        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+      </svg>
     </div>
   </div>
-  <div class="flex grow flex-col items-center gap-10">
+  <div class="flex grow flex-col items-center gap-10 cursor-pointer">
     <span class="text-center font-display text-vert-1 text-4xl">Exercies</span>
     <div
       *ngFor="let exercice of getExercices()"
       [routerLink]="['/exercice', exercice.id]"
-      class="flex justify-center items-center h-20 w-10/12 rounded-full bg-gradient-to-t from-violet-1 to-vert-1"
+      class="relative flex justify-center items-center h-20 w-[40rem] rounded-full bg-gradient-to-t from-violet-1 to-vert-1 font-bold
+             cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:scale-110 hover:skew-y-2 hover:hue-rotate-30"
     >
       <span>{{ exercice.name }}</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 absolute right-6" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+      </svg>
     </div>
   </div>
-
-  <!-- Ajouter la div boss -->
+  <!-- div boss -->
+</div>
+<div class="flex flex-col items-center text-black gap-10 px-8 mt-14">
+  <span class="text-center font-display text-orange-1 text-6xl">Boss</span>
+  <div
+    class="relative flex justify-center items-center h-20 w-1/5 rounded-full bg-gradient-to-b from-orange-1 to-red-500 grayscale
+           cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:scale-125"
+  >
+    <div class="absolute left-6 bg-cadenas-or bg-contain bg-no-repeat w-11 h-10"></div>
+    <div class="bg-boss bg-contain bg-no-repeat w-40 h-40 overflow-hidden"></div>
+  </div>
 </div>
