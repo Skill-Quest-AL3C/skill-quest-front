@@ -1,0 +1,275 @@
+[
+  {
+    "section_id": "1",
+    "section_name": "Langages de programmation",
+    "modules": [
+      {
+        "id": "1",
+        "name": "Les bases du TypeScript",
+        "bg_img": "url('https://sitenco.com/wp-content/uploads/2022/03/typescript-1.png')",
+        "cours": [
+          {
+            "id": "1",
+            "id_module" : "1",
+            "name": "1. Les bases du TypeScript"
+          },
+          {
+            "id": "2",
+            "id_module" : "1",
+            "name": "2. Syntaxe de base"
+          },
+          {
+            "id": "3",
+            "id_module" : "1",
+            "name": "3. Les classes en TypeScript"
+          },
+          {
+            "id": "4",
+            "id_module" : "1",
+            "name": "4. Type ou interface ?"
+          }
+        ],
+        "exercices": [
+          {
+            "id": "1",
+            "id_module" : "1",
+            "name": "Teste tes connaissances en TypeScript"
+          },
+          {
+            "id": "2",
+            "id_module" : "1",
+            "name": "Exercice 2"
+          },
+          {
+            "id": "3",
+            "id_module" : "1",
+            "name": "Exercice 3"
+          },
+          {
+            "id": "4",
+            "id_module" : "1",
+            "name": "Exercice 4"
+          }
+        ],
+        "boss": {}
+      },
+      {
+        "id": "2",
+        "section_id": "1",
+        "name": "Apprenez à programmer en C++",
+        "bg_img": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png')",
+        "cours": [
+          {
+            "id": "1",
+            "name": "1. Déclarez une variable et affichez sa valeur"
+          },
+          {
+            "id": "2",
+            "name": "2. Structurez votre code avec les conditions"
+          },
+          {
+            "id": "3",
+            "name": "3. Répétez des instructions grâce aux boucles"
+          },
+          {
+            "id": "4",
+            "name": "4. Manipulez des tableaux dynamiques"
+          },
+          {
+            "id": "5",
+            "name": "5. Découpez votre programme en fonctions"
+          }
+        ],
+        "exercices": [
+          {
+            "id": "1",
+            "name": "Faire ses premiers pas en C++"
+          },
+          {
+            "id": "2",
+            "name": "Mobiliser les notions de base en C++"
+          },
+          {
+            "id": "3",
+            "name": "Manipuler des notions avancées du C++"
+          }
+        ],
+        "boss": {}
+      },
+      {
+        "id": "3",
+        "name": "Initiez-vous à Python pour l'analyse de données",
+        "bg_img": "url('https://uploads-ssl.webflow.com/60ec34540d013784844d2ee2/61d42d538aec6733243470a7_Python-logo.png')",
+        "cours": [
+          {
+            "id": "1",
+            "name": "1. déclarer et manipuler des variables"
+          },
+          {
+            "id": "2",
+            "name": "2. poo"
+          },
+          {
+            "id": "3",
+            "name": "3. tableaux"
+          },
+          {
+            "id": "4",
+            "name": "4. structures conditionnelles"
+          },
+          {
+            "id": "5",
+            "name": "4. boucles"
+          }
+        ],
+        "exercices": [
+          {
+            "id": "1",
+            "name": "quiz fonctions et objets de base"
+          },
+          {
+            "id": "2",
+            "name": "quiz structurer code"
+          },
+          {
+            "id": "3",
+            "name": "quiz librairies python"
+          }
+        ],
+        "boss": {}
+      }
+    ]
+  },
+  {
+    "section_id": "2",
+    "section_name": "Général",
+    "modules": [
+      {
+        "id": "4",
+        "name": "La physique-chimie c'est cool (spoiler: non)",
+        "bg_img": "url('https://www.superprof.fr/images/annonces/professeur-home-besoin-coup-pouce-maths-physique-chimie-anglais-aide-devoirs.jpg')",
+        "cours": [
+          {
+            "id": "1",
+            "name": "Cours 1"
+          },
+          {
+            "id": "2",
+            "name": "Cours 2"
+          },
+          {
+            "id": "3",
+            "name": "Cours 3"
+          },
+          {
+            "id": "4",
+            "name": "Cours 4"
+          }
+        ],
+        "exercices": [
+          {
+            "id": "1",
+            "name": "Exercice 1"
+          },
+          {
+            "id": "2",
+            "name": "Exercice 2"
+          },
+          {
+            "id": "3",
+            "name": "Exercice 3"
+          },
+          {
+            "id": "4",
+            "name": "Exercice 4"
+          }
+        ],
+        "boss": {}
+      },
+      {
+        "id": "5",
+        "name": "Les accords en Français",
+        "bg_img": "url('https://www.inspe-paris.fr/system/files/styles/16_9_medium/private/images/Relation-internationale-Cours-Francais-INSPE-Paris-1440x1440.png')",
+        "cours": [
+          {
+            "id": "1",
+            "name": "Cours 1"
+          },
+          {
+            "id": "2",
+            "name": "Cours 2"
+          },
+          {
+            "id": "3",
+            "name": "Cours 3"
+          },
+          {
+            "id": "4",
+            "name": "Cours 4"
+          }
+        ],
+        "exercices": [
+          {
+            "id": "1",
+            "name": "Exercice 1"
+          },
+          {
+            "id": "2",
+            "name": "Exercice 2"
+          },
+          {
+            "id": "3",
+            "name": "Exercice 3"
+          },
+          {
+            "id": "4",
+            "name": "Exercice 4"
+          }
+        ],
+        "boss": {}
+      },
+      {
+        "id": "6",
+        "name": "Maths 3e",
+        "bg_img": "url('https://www.superprof.fr/blog/wp-content/uploads/2015/11/decouverte-mathematique-21-siecle.jpeg')",
+        "cours": [
+          {
+            "id": "1",
+            "name": "Cours 1"
+          },
+          {
+            "id": "2",
+            "name": "Cours 2"
+          },
+          {
+            "id": "3",
+            "name": "Cours 3"
+          },
+          {
+            "id": "4",
+            "name": "Cours 4"
+          }
+        ],
+        "exercices": [
+          {
+            "id": "1",
+            "name": "Exercice 1"
+          },
+          {
+            "id": "2",
+            "name": "Exercice 2"
+          },
+          {
+            "id": "3",
+            "name": "Exercice 3"
+          },
+          {
+            "id": "4",
+            "name": "Exercice 4"
+          }
+        ],
+        "boss": {}
+      }
+    ]
+  }
+]

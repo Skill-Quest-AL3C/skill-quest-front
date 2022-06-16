@@ -8,7 +8,7 @@ import { QuestionService } from './../service/question.service';
   styleUrls: ['./question.component.css'],
 })
 export class QuestionComponent implements OnInit {
-  public name: string = '';
+  public id: string = '';
   public questionList: any = [];
   public currentQuestion: number = 0;
   public points: number = 0;
@@ -22,7 +22,6 @@ export class QuestionComponent implements OnInit {
   constructor(private questionService: QuestionService) {}
 
   ngOnInit(): void {
-    this.name = localStorage.getItem('name')!;
     this.getAllQuestions();
     this.startCounter();
   }
