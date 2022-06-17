@@ -3,9 +3,8 @@
     class="bg-white/80 p-8 border rounded-xl border-slate-300 sm:w-full mx-5 lg:w-10/12 xl:w-1/2 h-[35rem]"
   >
     <h1 class="text-4xl font-extrabold text-center">
-      Bienvenue dans le donjon "TypeScript"
+      Bienvenue dans le donjon !
     </h1>
-    <p class="text-center text-lg">Votre épopée va contenir 9 questions.</p>
     <h4 class="text-2xl text-center font-bold mt-10">Règles :</h4>
     <ol class="list-decimal flex flex-col items-center text-center ml-5 text-lg m-4">
       <li>1 point = 1 pièce d'or & 1 point d'XP</li>
@@ -20,7 +19,7 @@
     <div class="flex justify-center">
       <button
         class="transition mt-5 ease-in-out delay-150 bg-bleu-1 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-bleu-2/50 py-2 px-3 rounded-lg font-bold text-white hover:bg-violet-1"
-        routerLink="./question"
+        [routerLink]="['./question']" [state]="{ exo: exercice }"
       >
         Commencer l'exploration
       </button>

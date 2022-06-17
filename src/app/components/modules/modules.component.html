@@ -2,12 +2,12 @@
   <div class="flex grow flex-col items-center gap-10">
     <span class="text-center font-display text-vert-1 text-4xl">Cours</span>
     <div
-      *ngFor="let cours of getCours()"
-      [routerLink]="['/cours', cours.id]"
+      *ngFor="let cours_courant of cours"
+      [routerLink]="['/cours', cours_courant.id]" [state]=" { cours : cours_courant }"
       class="relative flex justify-center items-center h-20 w-[40rem] rounded-full bg-gradient-to-t from-violet-1 to-vert-1 font-bold
              cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:scale-110 hover:-skew-y-2 hover:hue-rotate-90"
     >
-      <span>{{ cours.name }}</span>
+      <span>{{ cours_courant.name }}</span>
       <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-10 absolute right-6" viewBox="0 0 20 20">
         <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
       </svg>
@@ -16,8 +16,8 @@
   <div class="flex grow flex-col items-center gap-10 cursor-pointer">
     <span class="text-center font-display text-vert-1 text-4xl">Exercies</span>
     <div
-      *ngFor="let exercice of getExercices()"
-      [routerLink]="['/exercice', exercice.id]"
+      *ngFor="let exercice of exercices"
+      [routerLink]="['/exercice', exercice.id]" [state]=" { exo : exercice }"
       class="relative flex justify-center items-center h-20 w-[40rem] rounded-full bg-gradient-to-t from-violet-1 to-vert-1 font-bold
              cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:scale-110 hover:skew-y-2 hover:hue-rotate-30"
     >

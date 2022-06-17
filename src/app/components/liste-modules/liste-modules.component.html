@@ -1,20 +1,21 @@
 <!-- trouver un meilleur moyen de présenter les modules -->
 <div class="px-8 min-h-full">
   <!-- Modules par sections -->
-  <div *ngFor="let section of sections">
+  <div *ngFor="let section of sections$ | async">
     <div class="block p-6 max-w-full">
-      <span class="font-display text-vert-1 text-4xl">Recommandé : {{ section.name }}</span>
+      <span class="font-display text-vert-1 text-4xl">{{ section.section_name }}</span>
     </div>
     <div class="flex justify-center gap-20 mt-4 mb-10">
-      <div *ngFor="let module of getModulesBySectionId(section.id)">
+      <div *ngFor="let module of section.modules">
         <div class="flex flex-col 
                 p-2 w-72 h-56 
                  rounded-3xl shadow-md shadow-inner ring-1 ring-bleu-1 subpixel-antialiased
                  backdrop-blur-sm bg-white/20
                  cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:scale-110 hover:ring-1 hover:ring-vert-1 hover:backdrop-saturate-200 hover:backdrop-contrast-200
                  text-white hover:text-vert-1 hover:text-xl hover:font-bold hover:tracking-widest"
-             [routerLink]="['/module', module.id]">
-            <div class="bg-logo bg-contain bg-no-repeat bg-center h-full w-full"></div>
+             [routerLink]="['/module', module.id]"  [state]="{ exercices: module.exercices, cours: module.cours }">
+            <div class="bg-contain bg-no-repeat bg-center h-full w-full"
+                  [ngStyle]="{'background-image': module.bg_img}"></div>
             <span class="text-center">{{ module.name }}</span>
         </div>
       </div>

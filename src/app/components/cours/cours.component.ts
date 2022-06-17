@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { Subscription } from 'rxjs';
+import {Location} from '@angular/common';
 
 @Component({
   selector: 'app-cours',
@@ -9,24 +8,16 @@ import { Subscription } from 'rxjs';
 })
 export class CoursComponent implements OnInit {
 
-  private current_module: number;
-  private routeSub: Subscription;
-
-  constructor(private route: ActivatedRoute, private router: Router) { 
-    this.current_module = -1;
-    this.routeSub = new Subscription;
+  constructor(private _location: Location) { 
   }
 
   // fix : faire passer le module dans le composant et non pas l'id du cours
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe(params => {
-      console.log(params);
-      this.current_module = params['id']; // store the value of the current module id
-    });
+
   }
 
   goToModule() {
-    this.router.navigateByUrl('/module/' + this.current_module);
+    this._location.back();
   }
 
 }
