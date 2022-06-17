@@ -1,4 +1,4 @@
-<div class="min-h-full px-8 flex justify-center text-black">
+<div class="min-h-full px-8 flex justify-center text-black backdrop-blur-lg backdrop-grayscale">
   <div class="bg-foret w-4/5 h-[56rem] rounded-3xl flex flex-col p-6">
     <!-- bouton retour module -->
     <div (click)="goToModule()" class="flex gap-1 text-sm w-fit items-center text-gray-500 cursor-pointer duration-300 ease-in-out hover:transition-all hover:duration-500 hover:-skew-y-3 hover:text-bleu-1">
@@ -29,7 +29,7 @@
     <!-- Encart quiz -->
     <router-outlet (activate)="onOutletLoaded($event)"></router-outlet>
 
-    <div class="flex flex-col items-center mt-6">
+    <div class="grow flex flex-col items-center mt-6">
       <div class="backdrop-blur-sm backdrop-hue-rotate-60 flex flex-col items-center text-violet-1 font-display text-2xl self-center border rounded-lg p-4">
         Récompenses possibles :
         <div class="flex text-bleu-2"><div class="bg-xp bg-contain bg-no-repeat w-8 h-10"></div> x90</div>
