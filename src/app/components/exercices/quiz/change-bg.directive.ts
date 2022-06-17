@@ -16,9 +16,10 @@ export class ChangeBgDirective {
 
   @HostListener("click") answer() {
     if (this.isCorrect) {
-      this.render.addClass(this.el.nativeElement, "bg-green-600");
+      this.render.addClass(this.el.nativeElement, "bg-green-600 cursor-not-allowed");
+      
     } else {
-      this.render.addClass(this.el.nativeElement, "bg-red-600");
+      this.render.addClass(this.el.nativeElement, "bg-red-600 cursor-not-allowed");
     }
   }
 
